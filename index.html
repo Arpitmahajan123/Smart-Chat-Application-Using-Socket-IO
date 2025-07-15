@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/style.css">
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Chat</title>
@@ -21,6 +22,17 @@
         <div class="message left">
             I am fine, thank you!
         </div>
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-message">
+
+            <input type="text" id="messageinput" placeholder="Type your message here...">
+            <button id="sendMessageButton" type="submit" id="send-button">Send</button>
+
+        </form>
+    </div>
+
 
 
     <script src="js/client.js"></script>

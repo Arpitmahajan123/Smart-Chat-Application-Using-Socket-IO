@@ -43,7 +43,7 @@ body{
 }
 
 
-#sendMessageForm{
+#send-message{
     display: block;
     margin: auto;
     text-align: center;
@@ -51,8 +51,8 @@ body{
     width: 100%;
 }
 
-#messageInput{
-    width: 91%;
+#messageinput{
+    width: 92%;
     border-radius: 6px;
     border: 2px solid black;
     height: 34px;
